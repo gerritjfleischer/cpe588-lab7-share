@@ -144,7 +144,7 @@ Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4 --apcs=interw
 ork --depend=.\objects\jelosasm.d -o.\objects\jelosasm.o -I.\RTE\_Target_1 -IC:
 \Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123 -IC:\Keil_v5\ARM\C
 MSIS\Include --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --pred
-efine="__UVISION_VERSION SETA 524" --predefine="TM4C123GH6PM SETA 1" --list=.\l
+efine="__UVISION_VERSION SETA 526" --predefine="TM4C123GH6PM SETA 1" --list=.\l
 istings\jelosasm.lst jelosASM.s
 
 

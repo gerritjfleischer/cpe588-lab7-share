@@ -24,7 +24,7 @@ void UnblockTask(volatile int * s) {
 	TaskControlBlock *task_ptr; 
 	task_ptr = CURRENT_TASK->next;
 	
-	while(task_ptr->blocked != s){
+	while(task_ptr->blocked != s && task_ptr->tid != CURRENT_TASK->tid ){
 		task_ptr = task_ptr->next;
 	}
 	task_ptr->blocked = 0;
